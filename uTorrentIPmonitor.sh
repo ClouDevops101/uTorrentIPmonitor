@@ -1,6 +1,6 @@
 #!/bin/bash
 Keyword=$1
-#Application=$2 # next release
+#Application=$2 # next release it will be implemented
 # Adding Fonctionality
 # hot fix
   for ip in $(lsof -n -i | awk '{ print $1,$9; }' | sort -u  | grep uTo | cut -d'>' -f2 | cut -d':' -f1 | grep -v uTorrent  )
