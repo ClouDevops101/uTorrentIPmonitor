@@ -1,11 +1,12 @@
-Underconstruction
+uTorrentIPmonitor
 =============
 
-monitorip.sh is a homemade script for watching alerting on bad IP@
+monitorip.sh is a homemade script for watching uTorrent application people IP /country and other information.
+it can alert if a specific IP is sharing things with you  
 
 ![Monitoip](http://a3.mzstatic.com/eu/r30/Purple3/v4/2e/7d/98/2e7d9859-8f89-cdbf-6b71-d81aa30aec19/icon175x175.png)
 
-
+Underconstruction ================================================
 Handbrake.sh convert mkv to m4v AppleTv format using HandBrakeCli the most powerfull tools to compresse multiple video format.
 for more information about Handbrake please visite the official web page :
 [ Handbrake website ](https://trac.handbrake.fr/wiki/CLIGuide)
