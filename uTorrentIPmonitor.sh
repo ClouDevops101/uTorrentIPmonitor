@@ -14,7 +14,7 @@ Keyword=$1
           then
               echo $belongto | grep "$Keyord" && echo " I catched an IP : $ip that needs to be verified !!!"
         fi
-        #dns=$(nslookup $ip | grep name | cut -d'=' -f2)
+        # Making list of detected IP
         echo "$country  $ip $belongto"
 
      done
