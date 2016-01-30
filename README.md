@@ -1,7 +1,7 @@
 Underconstruction
 =============
 
-monitorip.sh is a homemade script for watching alerting on malicieus IP@  for compressing mkv and mp4 video file to m4v/aac Appletv ios video format
+monitorip.sh is a homemade script for watching alerting on bad IP@
 
 ![Monitoip](http://a3.mzstatic.com/eu/r30/Purple3/v4/2e/7d/98/2e7d9859-8f89-cdbf-6b71-d81aa30aec19/icon175x175.png)
 
