@@ -5,13 +5,14 @@ Keyword=$1
 # hot fix
   for ip in $(lsof -n -i | awk '{ print $1,$9; }' | sort -u  | grep uTo | cut -d'>' -f2 | cut -d':' -f1 | grep -v uTorrent  )
      do
-        #search=$(whois $ip | egrep  'descr|country')
+        # Make a whois lookup and get description
         belongto=$(whois $ip  | grep -m 1  descr  | cut -d ':' -f2)
+        # Make a whois lookup and get country code
         country=$(whois $ip  | grep -m 1 country | cut -d ':' -f2 | tr -d '[[:space:]]' )
-        #search="FREE SAS"
+        # Lookup for the given keyword
         if [ -n "$belongto" ]
           then
-              echo $belongto | grep "$Keyord" && echo " I catched an ip than needs to be verified"
+              echo $belongto | grep "$Keyord" && echo " I catched an IP : $ip that needs to be verified !!!"
         fi
         #dns=$(nslookup $ip | grep name | cut -d'=' -f2)
         echo "$country  $ip $belongto"
