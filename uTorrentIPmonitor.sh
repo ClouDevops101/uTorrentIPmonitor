@@ -12,7 +12,7 @@ Keyword=$1
       # Lookup for the given keyword
       if [ -n "$belongto" ]
         then
-          echo $belongto | grep "$Keyord" && echo " I catched an IP : $ip that needs to be verified !!!"
+          echo $belongto | grep "$Keyword" && echo " I catched an IP : $ip that needs to be verified !!!"
       fi
       # Making list of detected IP
       echo "$country  $ip $belongto"
